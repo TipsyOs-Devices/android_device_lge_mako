@@ -2,7 +2,7 @@
  {
    "remote":       "github",
    "repository":   "CyanogenMod/lge-kernel-mako",
-   "target_path":  "lge/kernel/mako",
+   "target_path":  "kernel/lge/mako",
    "branch":       "cm-13.0"
  },
  {
