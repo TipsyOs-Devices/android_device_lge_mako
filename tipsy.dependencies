@@ -1,6 +1,6 @@
 [
   {
-    "repository": "ValidusOs-Devices/device_lge_mako",
+    "repository": "TipsyOs-Devices/device_lge_mako",
     "target_path": "device/lge/mako",
     "branch": "8.1"
   },

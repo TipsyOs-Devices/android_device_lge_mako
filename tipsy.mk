@@ -3,7 +3,7 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Inherit some common ValidusOS stuff.
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
+$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -13,7 +13,7 @@ $(call inherit-product, device/lge/mako/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mako
-PRODUCT_NAME := validus_mako
+PRODUCT_NAME := tipsy_mako
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
